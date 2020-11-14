@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP2</title>
+    <link rel="stylesheet" href="./css/Style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+</head>
+
+
+<body>
+    <header>
+        <div class="logo">
+            <h3>SUPER-RAPIDO</h3>
+        </div>
+        <div class="menu2">
+            <ul>
+                <li> <input type="text"></li>
+                <li><i class="fas fa-search"></i></li>
+                <li><a href="#" class="micuenta"><i class="fas fa-user-circle"></i></a></li>
+                <li><p>Mi Cuenta</p></li>
+            </ul>   
+        </div>    
+      
+        
+    </header>
+<!-- INICIO MENU-->
+    <div class="promociones">
+        <nav>
+            <div class="hamburguesa">
+                <a href="#menu"><i class="fas fa-bars"></i> </a>
+            </div>    
+            <menu id="menu">
+                <a href="#"><i class="fas fa-times"></i></a>
+                <ul>
+                    <li><a href="#"> Promociones</a></li>
+                    <li><a href="#"> Catalogo </a></li>
+                    <li><a href="#"> Sucursales</a></li>
+                </ul>
+
+            </menu>
+            <ul class="selectores">
+                <li><a href="#">PROMOCIONES</a></li>
+                <li><a href="#">CATALOGO</a></li>
+                <li><a href="#">SUCURSALES</a></li>
+            </ul>
+        
+        </nav>
+    </div>    
+    
+<!-- INICIO MAIN-LOGO -->
+    <main>   
+            <!-- INICIO CARRITO -->
+        <div class="carrito">
+            <h2>Selecciona tus productos</h2>
+            <table class="tabla">
+                <thead>
+                    <tr>
+                        <th>Productos</th>
+                        <th>Carrito</th>
+                    </tr>
+                </thead>
+                <tbody>
+                   
+                </tbody>
+            </table>
+            <button id="totalizar" onclick="totalizarCompra ()">Totalizar compra</button>
+        </div>
+
+           <!-- INICIO CARDS -->
+    
+        <div class="contenedor_card">
+            <div class="card">
+                <a href="#">
+                    <h4>Las mejores promociones en bebidas</h4>
+                    <img src="./images/card1.png" alt="bebidas">
+                    <p>Del 15 al 25 de diciembre comprando una bebida de las marcas seleccionadas llevate la segunda con un 15% de descuento.</p>
+                </a>
+            </div>   
+            <div class="card">
+                <a href="#">
+                    <h4>Verduleria</h4>
+                    <img src="./images/card2.png" alt="equipo sdr">
+                    <p>Los productos más frescos de verdulería encontralos siempre en SUPER-RAPIDO! </p>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#">
+                    <h4>Productos de limpieza</h4>
+                    <img src=".//images/Household Cleaning.png" alt="limpieza">
+                    <p>Aprovechá este fin de semana de descuentos en productos de limpieza</p>
+                </a>
+            </div>
+           
+    </main> 
+    <footer>
+   
+    <div>
+        <a href="#"><i class="fab fa-facebook fa-4x"></i></a>
+        <a href="#"><i class="fab fa-instagram fa-4x"></i></a>
+        <a href="#"><i class="fab fa-twitter fa-4x"></i></a>
+        <a href="#"><i class="fab fa-youtube fa-4x"></i></a>
+    </div>
+   
+    </footer> 
+    
+    <script src="./script/script.js"></script> 
+</body>
+
+</html>   

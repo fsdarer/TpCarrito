@@ -33,21 +33,27 @@ const productos = [
     },
     {   
         producto: "sandia",
+        precio: 90,
     },
     {   
         producto: "melon",
+        precio: 80,
     },
     {   
         producto: "mandarina",
+        precio: 30,
     },
     {   
         producto: "limon",
+        precio: 50,
     },
     {   
         producto: "carbon",
+        precio: 40,
     },
     {   
         producto: "huevos",
+        precio: 100,
     },
 ];
 

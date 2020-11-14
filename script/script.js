@@ -5,24 +5,31 @@ const productos = [
     },
     {   
         producto: "tomates",
+        precio: 80,
     },
     {   
         producto: "lechuga",
+        precio: 40,
     },
     {   
         producto: "apio",
+        precio: 30,
     },
     {   
         producto: "rucula",
+        precio: 50,
     },
     {   
         producto: "naranjas",
+        precio: 70,
     },
     {   
         producto: "manzanas",
+        precio: 60,
     },
     {   
         producto: "kiwi",
+        precio: 80,
     },
     {   
         producto: "sandia",

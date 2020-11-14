@@ -1,6 +1,7 @@
 const productos = [
     {   
         producto: "zanahorias",
+        precio: 30,
     },
     {   
         producto: "tomates",

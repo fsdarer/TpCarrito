@@ -69,3 +69,28 @@ const productos = [
     
     }
 
+    
+    function crearListado() {
+        const tbody = document.querySelector('tbody');
+
+        productos.forEach((item)=>{
+
+        const tr = document.createElement('tr');
+
+        const tdProducto = document.createElement('td');
+        const tdProductoTxt = document.createTextNode('item.producto');
+        tdProducto.appendChild(tdProductoTxt);
+
+        const tdPrecio = document.createElement('td');
+        const tdPrecioTxt = document.createElement(item.precio);
+        tdPrecio.appendChild(tdPrecioTxt);
+
+        tr.appendChild(tdProducto);
+        tr.appendChild(tdPrecio);
+
+
+        tbody.appendChild(tr);
+
+        });
+    }
+

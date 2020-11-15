@@ -53,21 +53,29 @@
 <!-- INICIO MAIN-LOGO -->
     <main>   
             <!-- INICIO CARRITO -->
-        <div class="carrito">
-            <h2>Selecciona tus productos</h2>
-            <table class="tabla">
+        <div class="contenedor">
+            <table id="tablaListado">
+                <h1>Productos</h1>
                 <thead>
-                    <tr>
-                        <th>Productos</th>
-                        <th>Carrito</th>
-                    </tr>
+                  <tr>
+                    <td>Producto</td>
+                    <td>Precio</td>
+                  </tr>
                 </thead>
-                <tbody>
-                   
-                </tbody>
-            </table>
-            <button id="totalizar" onclick="totalizarCompra ()">Totalizar compra</button>
-            <button id="vaciarCarrito" onclick="vaciarCarrito()">Vaciar Carrito</button>
+                <tbody></tbody>
+              </table>
+              <table id="tablaCarrito">
+                <h1>Carrito</h1>
+                <thead>
+                  <tr>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                </thead>
+                <tbody></tbody>
+              </table>
+              <button id="totalizar">Totalizar compra</button>
+              <!--<button id="eliminar">Eliminar producto</button>-->
         </div>
 
            <!-- INICIO CARDS -->

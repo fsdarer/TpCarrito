@@ -265,7 +265,7 @@ body footer {
       -ms-flex-align: center;
           align-items: center;
   position: relative;
-  top: 850px;
+  top: 100em;
 }
 
 body footer i {

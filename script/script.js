@@ -37,7 +37,7 @@ const productos = [
   },
   {
     id: 7,
-    producto: "shampoo Elvive",
+    producto: "Shampoo Elvive",
     precio: 311,
     imagen: "https://supermercado.carrefour.com.ar/media/catalog/product/cache/1/thumbnail/60x/9df78eab33525d08d6e5fb8d27136e95/7/5/7509552838954_01.jpg",
   },

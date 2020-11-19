@@ -1,77 +1,75 @@
 const productos = [
   {
-    id: "azucar",
-    producto: "Azucar",
+    id: 1,
+    producto: "Azucar Ledesma",
     precio: 50,
-    imagen: "https://source.unsplash.com/random/500x500/?potato&sig=1",
+    imagen: "https://supermercado.carrefour.com.ar/media/catalog/product/cache/1/thumbnail/60x/9df78eab33525d08d6e5fb8d27136e95/7/7/7792540260138_02.jpg",
   },
   {
-    id: "leche",
-    producto: "Leche",
+    id: 2,
+    producto: "Leche La Serenisima",
     precio: 78,
-    imagen:
-      "https://images.unsplash.com/photo-1563636619-e9143da7973b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=701&q=80",
+    imagen: "https://supermercado.carrefour.com.ar/media/catalog/product/cache/1/thumbnail/60x/9df78eab33525d08d6e5fb8d27136e95/7/7/7793940448003_01_nuevopack.jpg",
   },
   {
-    id: "cafe",
-    producto: "Cafe",
+    id: 3,
+    producto: "Cafe Dolca",
     precio: 300,
-    imagen: "https://source.unsplash.com/random/500x500/?potato&sig=1",
+    imagen: "https://supermercado.carrefour.com.ar/media/catalog/product/cache/1/thumbnail/60x/9df78eab33525d08d6e5fb8d27136e95/7/6/7613035070981_01_nuevopack.jpg"
   },
   {
-    id: "alfajor",
+    id: 4,
     producto: "Alfajor Terrabusi",
     precio: 55,
-    imagen: "https://source.unsplash.com/random/500x500/?potato&sig=1",
+    imagen: "https://supermercado.carrefour.com.ar/media/catalog/product/cache/1/thumbnail/60x/9df78eab33525d08d6e5fb8d27136e95/7/7/77939234_01.jpg"
   },
   {
-    id: "mayonesa",
-    producto: "Mayonesa",
+    id: 5,
+    producto: "Mayonesa Natura",
     precio: 130,
-    imagen: "https://source.unsplash.com/random/500x500/?potato&sig=1",
+    imagen: "https://supermercado.carrefour.com.ar/media/catalog/product/cache/1/thumbnail/60x/9df78eab33525d08d6e5fb8d27136e95/7/7/7791866001364_02.jpg"
   },
   {
-    id: "jabon",
-    producto: "Jabon",
+    id: 6,
+    producto: "Jabon Skip",
     precio: 300,
-    imagen: "https://source.unsplash.com/random/500x500/?potato&sig=1",
+    imagen: "https://supermercado.carrefour.com.ar/media/catalog/product/cache/1/thumbnail/60x/9df78eab33525d08d6e5fb8d27136e95/7/7/7791290010055_05_nuevopack.jpg"
   },
   {
-    id: "shampoo",
-    producto: "shampoo",
+    id: 7,
+    producto: "shampoo Elvive",
     precio: 180,
-    imagen: "https://source.unsplash.com/random/500x500/?potato&sig=1",
+    imagen: "https://supermercado.carrefour.com.ar/media/catalog/product/cache/1/thumbnail/60x/9df78eab33525d08d6e5fb8d27136e95/7/5/7509552838954_01.jpg"
   },
   {
-    id: "desodorante",
-    producto: "Desodorante",
+    id: 8,
+    producto: "Desodorante Dove",
     precio: 200,
-    imagen: "https://source.unsplash.com/random/500x500/?potato&sig=1",
+    imagen: "https://supermercado.carrefour.com.ar/media/catalog/product/cache/1/thumbnail/60x/9df78eab33525d08d6e5fb8d27136e95/7/8/78924468_01_nuevopack.jpg"
   },
   {
-    id: "tomate",
-    producto: "Tomate",
+    id: 9,
+    producto: "Pure de tomate La Campagnola",
     precio: 60,
-    imagen: "https://source.unsplash.com/random/500x500/?potato&sig=1",
+    imagen: "https://supermercado.carrefour.com.ar/media/catalog/product/cache/1/thumbnail/60x/9df78eab33525d08d6e5fb8d27136e95/7/7/7793360000485_01.jpg"
   },
   {
-    id: "servilletas",
-    producto: "Servilletas",
+    id: 10,
+    producto: "Servilletas Elite",
     precio: 80,
-    imagen: "https://source.unsplash.com/random/500x500/?potato&sig=1",
+    imagen: "https://supermercado.carrefour.com.ar/media/catalog/product/cache/1/thumbnail/60x/9df78eab33525d08d6e5fb8d27136e95/7/7/7790250023524_02.jpg"
   },
   {
-    id: "lavandina",
-    producto: "Lavandina",
+    id: 11,
+    producto: "Lavandina Ayudin",
     precio: 70,
-    imagen: "https://source.unsplash.com/random/500x500/?potato&sig=1",
+    imagen: "https://supermercado.carrefour.com.ar/media/catalog/product/cache/1/thumbnail/60x/9df78eab33525d08d6e5fb8d27136e95/7/7/7793253001360_01.jpg"
   },
   {
-    id: "aceite",
-    producto: "Aceite",
+    id: 12,
+    producto: "Aceite Natura",
     precio: 100,
-    imagen:
-      "https://images.unsplash.com/photo-1552592074-ea7a91b851b3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80",
+    imagen: "https://supermercado.carrefour.com.ar/media/catalog/product/cache/1/thumbnail/60x/9df78eab33525d08d6e5fb8d27136e95/7/7/7790272000046_02.jpg"
   },
 ];
 
@@ -80,97 +78,84 @@ const listaCarrito = [];
 
 const botonTotalizar = document.getElementById("totalizar");
 
-const botonEliminar = document.getElementById("eliminar");
+const Eliminar = document.getElementById("eliminar");
 
-const tbody = document.querySelector("#tablaListado tbody");
+const tbodyListado = document.querySelector("#tablaListado tbody");
 
 const tbodyCarrito = document.querySelector("#tablaCarrito tbody");
+
+const total = document.querySelector("#total");
 
 function crearListado() {
   productos.forEach((item) => {
     const tr = document.createElement("tr");
-    tr.id = item.id;
+
+    const tdProducto = document.createElement("td");
+    const tdProductoTxt = document.createTextNode(item.producto);
+    tdProducto.appendChild(tdProductoTxt);
+
+    const tdPrecio = document.createElement("td");
+    const tdPrecioTxt = document.createTextNode(item.precio);
+    tdPrecio.appendChild(tdPrecioTxt);
 
     const tdImagen = document.createElement("td");
     const imagenProducto = document.createElement("img");
     imagenProducto.src = item.imagen;
     tdImagen.appendChild(imagenProducto);
 
-    const tdProducto = document.createElement("td");
-    //const tdProductoTxt = document.createTextNode(item.producto);
-    tdProducto.innerHTML = item.producto;
-    //tdProducto.appendChild(tdProductoTxt);
-
-    const tdPrecio = document.createElement("td");
-    //const tdPrecioTxt = document.createTextNode(item.precio);
-    tdPrecio.textContent = item.precio;
-    //tdPrecio.appendChild(tdPrecioTxt);
-
-    tr.appendChild(tdImagen);
     tr.appendChild(tdProducto);
     tr.appendChild(tdPrecio);
-
-    tbody.appendChild(tr);
+    tr.appendChild(tdImagen);
+    tr.addEventListener("click", () => agregarACarro(item));
+    tbodyListado.appendChild(tr);
   });
 }
 crearListado();
-tbody.addEventListener("click", (e) => agregarACarrito(e));
 
-//document.getElementById(productos).addEventListener("click", agregarCarrito, true);
-
-function crearCarrito() {
+function agregarACarro(nuevoItem) {
+  if (listaCarrito.length == 0) {
+    listaCarrito.push(nuevoItem);
+  } else {
+    let existe = listaCarrito.find((i) => i.id == nuevoItem.id);
+    if (existe == undefined) {
+      listaCarrito.push(nuevoItem);
+    }
+  }
   tbodyCarrito.innerHTML = "";
   listaCarrito.forEach((item) => {
     const tr = document.createElement("tr");
 
     const tdProducto = document.createElement("td");
-    //const tdProductoTxt = document.createTextNode(item.producto);
-    tdProducto.textContent = item.producto;
-    //tdProducto.appendChild(tdProductoTxt);
+    const tdProductoTxt = document.createTextNode(item.producto);
+    tdProducto.appendChild(tdProductoTxt);
 
     const tdPrecio = document.createElement("td");
-    //const tdPrecioTxt = document.createTextNode(item.precio);
-    tdPrecio.textContent = item.precio;
-    //tdPrecio.appendChild(tdPrecioTxt);
+    const tdPrecioTxt = document.createTextNode(item.precio);
+    tdPrecio.appendChild(tdPrecioTxt);
 
     tr.appendChild(tdProducto);
     tr.appendChild(tdPrecio);
-
+    tr.addEventListener("click", (e) => eliminarProducto(e, item));
     tbodyCarrito.appendChild(tr);
   });
-}
 
-function agregarACarrito(e) {
-  if (e.target.tagName === "TR" || e.target.parentNode.tagName === "TR") {
-    // (e) evento y tagName contiene el nombre del elemento actual
-
-    //console.log(idProducto);
-    const idProducto = e.target.id ? e.target.id : e.target.parentNode.id;
-
-    const existeProducto = listaCarrito.some((item) => item.id === idProducto);
-    if (!existeProducto) {
-      const productoComprado = productos.filter(
-        (producto) => producto.id === idProducto
-      );
-      //console.log(productoComprado);
-
-      listaCarrito.push(...productoComprado);
-      //console.log(listaCarrito);
-
-      crearCarrito();
-    }
-  }
-
-  //tablaCarrito.push(producto);
-  //agregarElemento(producto, tablaCarrito);
+  totalizarCompra();
 }
 
 function totalizarCompra() {
-  console.log("comprado");
+  let total = 0;
+  listaCarrito.forEach((item) => {
+    total += item.precio;
+  });
+  div.innerHTML(total);
+
+  //console.log(total);
 }
 
-function eliminarProducto() {
-  console.log("eliminado");
+function eliminarProducto(e, item) {
+  let index = listaCarrito.findIndex((i) => i.id == item.id);
+  listaCarrito.splice(index, 1);
+  tbodyCarrito.removeChild(e.currentTarget);
 }
 
 botonTotalizar.addEventListener("click", totalizarCompra);

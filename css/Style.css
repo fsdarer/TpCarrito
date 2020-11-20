@@ -163,8 +163,9 @@ body main .contenedor_card {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-top: 300px;
+  margin-top: 400px;
   margin-left: 0px;
+  margin-bottom: 100px;
   top: 40px;
 }
 
